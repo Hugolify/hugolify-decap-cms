@@ -59,7 +59,7 @@ https://github.com/Hugolify/hugolify-decap-cms/tree/main/admin/app/settings
 * Template Hugolify : [Hugolify template](https://github.com/hugolify/hugolify-template)
 
 ## Live demo
-- Front: https://demo.hugolify.com
+- Front: https://demo.hugolify.io
 
 ## Install
 
