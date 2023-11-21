@@ -1,3 +1,3 @@
-module github.com/hugolify/hugolify-netlify-cms
+module github.com/hugolify/hugolify-decap-cms
 
 go 1.19

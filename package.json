@@ -1,10 +1,10 @@
 {
-    "name": "hugolify-netlify-cms",
+    "name": "hugolify-decap-cms",
     "version": "1.8.3",
     "homepage": "https://www.hugolify.io",
-    "repository": "https://github.com/hugolify/hugolify-netlify-cms",
+    "repository": "https://github.com/hugolify/hugolify-decap-cms",
     "bugs": {
-        "url": "https://github.com/hugolify/hugolify-netlify-cms/issues"
+        "url": "https://github.com/hugolify/hugolify-decap-cms/issues"
     },
     "author": {
         "name": "Sébastien Moulène",
