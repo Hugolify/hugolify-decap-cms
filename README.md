@@ -1,4 +1,4 @@
-# Hugo Netlify CMS
+# Hugo Decap CMS
 
 ## Table of contents
 
@@ -14,7 +14,7 @@
 
 
 ## Settings
-https://github.com/Hugolify/hugolify-netlify-cms/tree/main/admin/app/settings
+https://github.com/Hugolify/hugolify-decap-cms/tree/main/admin/app/settings
 - Available blocks
 - Available collections
 - Available languages
@@ -64,15 +64,15 @@ https://github.com/Hugolify/hugolify-netlify-cms/tree/main/admin/app/settings
 ## Install
 
 ### Modules
-Edit `config/_default/module.yaml` to install the `hugolify-netlify-cms` module:
+Edit `config/_default/module.yaml` to install the `hugolify-decap-cms` module:
 ```yml
 imports:
-  - path: github.com/hugolify/hugolify-netlify-cms
+  - path: github.com/hugolify/hugolify-decap-cms
 ```
 ### Submodules
 Add this repository as a subdomain in your hugo project:
 ```
-git submodule add git@github.com:hugolify/hugolify-netlify-cms static
+git submodule add git@github.com:hugolify/hugolify-decap-cms static
 ```
 
 ## Documentations
