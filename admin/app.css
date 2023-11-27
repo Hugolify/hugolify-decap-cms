@@ -1,471 +1,468 @@
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css');
 
 :root {
-    --primary-color: #A90940;
-    --text-color: black;
-    --grey: rgb(240, 240, 240);
-    --midgrey: rgb(245, 245, 245);
-    --lightgrey: rgb(250, 250, 250);
-    --border-radius: 6px;
-    --margin: 20px;
+  --primary-color: #a90940;
+  --text-color: black;
+  --grey: rgb(240, 240, 240);
+  --midgrey: rgb(245, 245, 245);
+  --lightgrey: rgb(250, 250, 250);
+  --border-radius: 6px;
+  --margin: 20px;
 }
 
 header nav::before {
-    background: url("./logo-picto.svg") no-repeat;
-    background-size: contain;
-    content: '';
-    float: left;
-    height: 40px;
-    margin-top: 8px;
-    width: 40px;
+  background: url('./logo-picto.svg') no-repeat;
+  background-size: contain;
+  content: '';
+  float: left;
+  height: 40px;
+  margin-top: 8px;
+  width: 40px;
 }
 
-[class*="-CustomIconWrapper"] {
-    text-align: center;
+[class*='-CustomIconWrapper'] {
+  text-align: center;
 }
-[class*="-CustomIconWrapper"] img {
-    height: 50px;
-    width: 50px;
+[class*='-CustomIconWrapper'] img {
+  height: 50px;
+  width: 50px;
 }
 
-input[type="text"],
-input[type="number"],
+input[type='text'],
+input[type='number'],
 textarea {
-    border: 1px solid var(--grey) !important;
-    border-radius: var(--border-radius) !important;
-    padding: 15px !important;
+  border: 1px solid var(--grey) !important;
+  border-radius: var(--border-radius) !important;
+  padding: 15px !important;
 }
 
-input[id*="color"] {
-    padding-left: 75px !important;
+input[id*='color'] {
+  padding-left: 75px !important;
 }
 
-[aria-current="page"],
-[aria-current="page"] svg {
-        color: var(--primary-color) !important;
+[aria-current='page'],
+[aria-current='page'] svg {
+  color: var(--primary-color) !important;
 }
 
-[class*="-ControlContainer"] {
-    padding-bottom: 10px !important;
-    margin-top: 10px !important;
+[class*='-ControlContainer'] {
+  padding-bottom: 10px !important;
+  margin-top: 10px !important;
 }
 
-[class*="ControlContainer"] > label {
-    background: transparent;
-    color: var(--text-color);
-    font-size: 14px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    text-transform: initial;
+[class*='ControlContainer'] > label {
+  background: transparent;
+  color: var(--text-color);
+  font-size: 14px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  text-transform: initial;
 }
-[class*=TopBarContainer] + div label {
-    font-size: 12px;
+[class*='TopBarContainer'] + div label {
+  font-size: 12px;
 }
-[class*="ControlContainer"] > label::after {
-    content: none;
+[class*='ControlContainer'] > label::after {
+  content: none;
 }
-[class*="ControlContainer"] > div {
-    /* border: 1px dashed var(--grey); */
-    background: transparent;
-    border: 0;
-    padding-bottom: 0 !important;
-}
-
-label + [class*="-DateTimeControl"] {
-    border: 0 !important;
+[class*='ControlContainer'] > div {
+  /* border: 1px dashed var(--grey); */
+  background: transparent;
+  border: 0;
+  padding-bottom: 0 !important;
 }
 
-[class*="ExpandButton"]::before {
-    content: '';
-    inset: 0;
-    position: absolute;
-}
-[class*="AddButton"] {
-    position: relative;
-}
-[class*="NestedObjectLabel"] {
-    font-size: 11px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-[class*="-ControlHint"] a {
-    font-size: 12px;
+label + [class*='-DateTimeControl'] {
+  border: 0 !important;
 }
 
-
-
-[class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"],
-[class*="ListItem-listControlItem-ListControl"] {
-    display: flex;
-    flex-wrap: wrap;
+[class*='ExpandButton']::before {
+  content: '';
+  inset: 0;
+  position: absolute;
+}
+[class*='AddButton'] {
+  position: relative;
+}
+[class*='NestedObjectLabel'] {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+[class*='-ControlHint'] a {
+  font-size: 12px;
 }
 
-[class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"] > label,
-[class*="ListItem-listControlItem-ListControl"] > label {
-    background: transparent;
-    color: var(--text-color);
-    order: 1;
-    padding-left: 0;
+[class*='ListItem-listControlItem-listControlItemCollapsed-ListControl'],
+[class*='ListItem-listControlItem-ListControl'] {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-[class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"] > div:nth-of-type(2),
-[class*="ListItem-listControlItem-ListControl"] > div:nth-of-type(2) {
-    background: transparent;
-    color: var(--text-color);
-    order: 2;
-    padding: 0;
+[class*='ListItem-listControlItem-listControlItemCollapsed-ListControl']
+  > label,
+[class*='ListItem-listControlItem-ListControl'] > label {
+  background: transparent;
+  color: var(--text-color);
+  order: 1;
+  padding-left: 0;
 }
 
-[class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"] > div:first-of-type,
-[class*="ListItem-listControlItem-ListControl"] > div:first-of-type {
-    flex: 0 0 100%;
-    order: 3;
+[class*='ListItem-listControlItem-listControlItemCollapsed-ListControl']
+  > div:nth-of-type(2),
+[class*='ListItem-listControlItem-ListControl'] > div:nth-of-type(2) {
+  background: transparent;
+  color: var(--text-color);
+  order: 2;
+  padding: 0;
 }
 
-
-[class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"] > div:last-child,
-[class*="ListItem-listControlItem-ListControl"] > div:last-child {
-    /* border: 1px solid var(--grey); */
-    border: 0;
-    border-radius: var(--border-radius);
-    flex: 0 0 100%;
-    order: 4;
-    padding: 0 var(--margin) var(--margin);
+[class*='ListItem-listControlItem-listControlItemCollapsed-ListControl']
+  > div:first-of-type,
+[class*='ListItem-listControlItem-ListControl'] > div:first-of-type {
+  flex: 0 0 100%;
+  order: 3;
 }
 
-[class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"] > label::before,
-[class*="ListItem-listControlItem-listControlItemCollapsed-ListControl"] > label::after,
-[class*="ListItem-listControlItem-ListControl"] > label::before,
-[class*="ListItem-listControlItem-ListControl"] > label::after,
-
-[class*="-FieldLabel-fieldLabel"]::before,
-[class*="-FieldLabel-fieldLabel"]::after {
-    content: none;
+[class*='ListItem-listControlItem-listControlItemCollapsed-ListControl']
+  > div:last-child,
+[class*='ListItem-listControlItem-ListControl'] > div:last-child {
+  /* border: 1px solid var(--grey); */
+  border: 0;
+  border-radius: var(--border-radius);
+  flex: 0 0 100%;
+  order: 4;
+  padding: 0 var(--margin) var(--margin);
 }
 
-[class*="ControlContainer"],
-[class*="ControlContainer"]:first-of-type {
-    margin-top: var(--margin) !important;
-}
-[class*="ControlContainer"] {
-    clear: both;
-}
-
-[class*="-control"] {
-    border: 1px dashed var(--grey) !important;
-    border-radius: var(--border-radius) !important;
+[class*='ListItem-listControlItem-listControlItemCollapsed-ListControl']
+  > label::before,
+[class*='ListItem-listControlItem-listControlItemCollapsed-ListControl']
+  > label::after,
+[class*='ListItem-listControlItem-ListControl'] > label::before,
+[class*='ListItem-listControlItem-ListControl'] > label::after,
+[class*='-FieldLabel-fieldLabel']::before,
+[class*='-FieldLabel-fieldLabel']::after {
+  content: none;
 }
 
-[class*="-control"] input[type="text"] {
-    border: 0 !important;
-    padding: 0 !important;
+[class*='ControlContainer'],
+[class*='ControlContainer']:first-of-type {
+  margin-top: var(--margin) !important;
+}
+[class*='ControlContainer'] {
+  clear: both;
 }
 
-div > div[id*="blocks-field-"],
-div > div[id*="hero-field-"] {
-    background-color: var(--lightgrey) !important;
-    border: 0 !important;
-    border-radius: 0 !important;
+[class*='-control'] {
+  border: 1px dashed var(--grey) !important;
+  border-radius: var(--border-radius) !important;
 }
 
-div > div[id*="blocks-field-"] > div:last-child:not(:empty) {
-    padding-bottom: var(--margin) !important;
+[class*='-control'] input[type='text'] {
+  border: 0 !important;
+  padding: 0 !important;
 }
 
+div > div[id*='blocks-field-'],
+div > div[id*='hero-field-'] {
+  background-color: var(--lightgrey) !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+div > div[id*='blocks-field-'] > div:last-child:not(:empty) {
+  padding-bottom: var(--margin) !important;
+}
 
 /* TOPBAR */
-[class*="-TopBarContainer"]{
-    background: var(--grey) !important;
-    padding: 5px !important;
-    position: relative;
+[class*='-TopBarContainer'] {
+  background: var(--grey) !important;
+  padding: 5px !important;
+  position: relative;
 }
-[class*="TopBar-StyledListItemTopBar-StyledListItemTopBar"] button,
-[class*="TopBar-StyledListItemTopBar-StyledListItemTopBar"] > span {
-    background-color: var(--midgrey);
-    border-radius: 0;
+[class*='TopBar-StyledListItemTopBar-StyledListItemTopBar'] button,
+[class*='TopBar-StyledListItemTopBar-StyledListItemTopBar'] > span {
+  background-color: var(--midgrey);
+  border-radius: 0;
 }
-
 
 /* TOGGLE FIELD */
-[class*=-ControlContainer]:has(> div > [class*=-ToggleContainer]) {
-    display: flex;
-    flex-wrap: wrap;
-    white-space: nowrap;
+[class*='-ControlContainer']:has(> div > [class*='-ToggleContainer']) {
+  display: flex;
+  flex-wrap: wrap;
+  white-space: nowrap;
 }
-div:has(> [class*=-ToggleContainer]) {
-    padding-top: 5px;
-    width: auto
+div:has(> [class*='-ToggleContainer']) {
+  padding-top: 5px;
+  width: auto;
 }
- 
 
 /* IMAGE FIELD */
-[class*="-ImageWrapper-checkerboard"] {
-    float: left;
+[class*='-ImageWrapper-checkerboard'] {
+  float: left;
 }
-[id^=gallery-field],
-[id^=image-field],
-[id^=images-field] {
-    background-color: var(--lightgrey) !important;
+[id^='gallery-field'],
+[id^='image-field'],
+[id^='images-field'] {
+  background-color: var(--lightgrey) !important;
 }
-[id^=gallery-field] div,
-[id^=image-field] div {
-    background-color: transparent;
+[id^='gallery-field'] div,
+[id^='image-field'] div {
+  background-color: transparent;
 }
-[id^=gallery-field] [class*="-ControlContainer"]:nth-child(2),
-[id^=image-field] [class*="-ControlContainer"]:nth-child(2),
-[id^=images-field] [class*="-ControlContainer"]:nth-child(2) {
-    clear: none;
-    float: left;
-    margin-top: 0 !important;
+[id^='gallery-field'] [class*='-ControlContainer']:nth-child(2),
+[id^='image-field'] [class*='-ControlContainer']:nth-child(2),
+[id^='images-field'] [class*='-ControlContainer']:nth-child(2) {
+  clear: none;
+  float: left;
+  margin-top: 0 !important;
 }
-[id^=gallery-field] > div:last-child > div:nth-child(3),
-[id^=image-field] > div:last-child > div:nth-child(3),
-[id^=images-field] > div:last-child > div:nth-child(3) {
-    clear: left;
+[id^='gallery-field'] > div:last-child > div:nth-child(3),
+[id^='image-field'] > div:last-child > div:nth-child(3),
+[id^='images-field'] > div:last-child > div:nth-child(3) {
+  clear: left;
 }
-[id^=gallery-field] [class*="-ControlContainer"]:nth-child(2) + div:not(:last-child) {
-    float: left;
-    width: 49%;
+[id^='gallery-field']
+  [class*='-ControlContainer']:nth-child(2)
+  + div:not(:last-child) {
+  float: left;
+  width: 49%;
 }
-[id^=gallery-field] [class*="-ControlContainer"]:nth-child(4) {
-    clear: none;
-    float: right;
-    width: 49%;
-}
-
-[id^=gallery-field] input[type="text"],
-[id^=image-field] input[type="text"],
-[id^=images-field] input[type="text"] {
-    padding: 5px !important;
-}
-div[id^=gallery-field] {
-    padding-bottom: 10px !important;
+[id^='gallery-field'] [class*='-ControlContainer']:nth-child(4) {
+  clear: none;
+  float: right;
+  width: 49%;
 }
 
+[id^='gallery-field'] input[type='text'],
+[id^='image-field'] input[type='text'],
+[id^='images-field'] input[type='text'] {
+  padding: 5px !important;
+}
+div[id^='gallery-field'] {
+  padding-bottom: 10px !important;
+}
 
-div[id^=documents-field] {
-    background-color: var(--lightgrey) !important;
-    padding-bottom: 10px !important;
+div[id^='documents-field'] {
+  background-color: var(--lightgrey) !important;
+  padding-bottom: 10px !important;
 }
 
 /* ADDRESS FIELD */
-[id^=address-field] {
-    background-color: var(--lightgrey) !important;
+[id^='address-field'] {
+  background-color: var(--lightgrey) !important;
 }
-[id^=coordinates-field] > div + div:not([class^=css]),
-[id^=address-field] > div + div:not([class^=css]) {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+[id^='coordinates-field'] > div + div:not([class^='css']),
+[id^='address-field'] > div + div:not([class^='css']) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-[id^=address-field] > div + div > div {
-    flex-basis: 32%;
+[id^='address-field'] > div + div > div {
+  flex-basis: 32%;
 }
-[id^=coordinates-field] > div + div > div {
-    flex-basis: 49%;
+[id^='coordinates-field'] > div + div > div {
+  flex-basis: 49%;
 }
-[id^=address-field] > div + div > div:first-child,
-[id^=address-field] > div + div > div:last-child {
-    flex-basis: 100%;
+[id^='address-field'] > div + div > div:first-child,
+[id^='address-field'] > div + div > div:last-child {
+  flex-basis: 100%;
 }
 
 /* CONTACT FIELD */
-[id^=contact-field] {
-    background-color: var(--lightgrey) !important;
+[id^='contact-field'] {
+  background-color: var(--lightgrey) !important;
 }
 
 /* INFORMATIONS */
-[id^=informations-field] {
-    background-color: var(--lightgrey) !important;
+[id^='informations-field'] {
+  background-color: var(--lightgrey) !important;
 }
-[id^=informations-field] > div + div:not([class^=css]) {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+[id^='informations-field'] > div + div:not([class^='css']) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-[id^=informations-field] > div + div > div {
-    flex-basis: 32%;
+[id^='informations-field'] > div + div > div {
+  flex-basis: 32%;
 }
-
 
 /* OFFER */
-[id^=offer-field] {
-    background-color: var(--lightgrey) !important;
+[id^='offer-field'] {
+  background-color: var(--lightgrey) !important;
 }
-[id^=offer-field] > div {
-    overflow: hidden;
+[id^='offer-field'] > div {
+  overflow: hidden;
 }
-[id^=offer-field] [class*=-ControlContainer]:has(> [id^=price-field]) {
-    float: left;
-    width: 49%;
+[id^='offer-field'] [class*='-ControlContainer']:has(> [id^='price-field']) {
+  float: left;
+  width: 49%;
 }
-[id^=offer-field] [class*=-ControlContainer]:has(> [id^=status-field]) {
-    clear: none;
-    float: right;
-    width: 49%;
+[id^='offer-field'] [class*='-ControlContainer']:has(> [id^='status-field']) {
+  clear: none;
+  float: right;
+  width: 49%;
 }
 
 /* CAROUSEL */
-[id^=params-field] [class*=-ControlContainer] {
-    clear: none;
-    float: left;
-    margin-right: 2%;
-    width: 32%;
+[id^='params-field'] [class*='-ControlContainer'] {
+  clear: none;
+  float: left;
+  margin-right: 2%;
+  width: 32%;
 }
-[id^=params-field] [class*=-ControlContainer]:nth-child(3n+1) {
-    clear: left;
+[id^='params-field'] [class*='-ControlContainer']:nth-child(3n + 1) {
+  clear: left;
 }
-[id^=params-field] [class*=-ControlContainer]:nth-child(3n) {
-    margin-right: 0;
+[id^='params-field'] [class*='-ControlContainer']:nth-child(3n) {
+  margin-right: 0;
 }
-
 
 /* Keyfeatures */
-[id^=keyfeatures-field] {
-    background-color: var(--lightgrey) !important;
+[id^='keyfeatures-field'] {
+  background-color: var(--lightgrey) !important;
 }
-[id^=keyfeatures-field] [class*=-ControlContainer]:has(> [id^=title-field]) {
-    clear: none;
-    float: left;
-    width: 49%;
+[id^='keyfeatures-field']
+  [class*='-ControlContainer']:has(> [id^='title-field']) {
+  clear: none;
+  float: left;
+  width: 49%;
 }
-[id^=keyfeatures-field] [class*=-ControlContainer]:has(> [id^=icon-field]) {
-    float: right;
-    width: 49%;
+[id^='keyfeatures-field']
+  [class*='-ControlContainer']:has(> [id^='icon-field']) {
+  float: right;
+  width: 49%;
 }
 
 /* Diagnostic */
-[id^=diagnostic-field] {
-    background-color: var(--lightgrey) !important;
+[id^='diagnostic-field'] {
+  background-color: var(--lightgrey) !important;
 }
-[id^=diagnostic-field] > div + div:not([class^=css]) {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+[id^='diagnostic-field'] > div + div:not([class^='css']) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-[id^=diagnostic-field] > div > div {
-    width: 49%;
-}
-
-
-/* TAXONOMIES */ 
-[class*=-ControlContainer]:has([id^=reference]) {
-    float: left;
-    margin-right: 2%;
-    width: 30%;
-}
-[class*=-ControlContainer]:has([id^=realestates_categories]) {
-    clear: none;
-    float: left;
-    width: 30%;
-}
-[class*=-ControlContainer]:has([id^=realestates_persons]) {
-    clear: none;
-    float: right;
-    width: 36%;
+[id^='diagnostic-field'] > div > div {
+  width: 49%;
 }
 
+/* TAXONOMIES */
+[class*='-ControlContainer']:has([id^='reference']) {
+  float: left;
+  margin-right: 2%;
+  width: 30%;
+}
+[class*='-ControlContainer']:has([id^='realestates_categories']) {
+  clear: none;
+  float: left;
+  width: 30%;
+}
+[class*='-ControlContainer']:has([id^='realestates_persons']) {
+  clear: none;
+  float: right;
+  width: 36%;
+}
 
 /* TOOLBAR */
-[class*="-ToolbarContainer"] {
-    background: var(--grey) !important;
-    padding: 5px !important;
+[class*='-ToolbarContainer'] {
+  background: var(--grey) !important;
+  padding: 5px !important;
 }
-[class*="-ToolbarContainer"] {
-    min-height: auto !important;
+[class*='-ToolbarContainer'] {
+  min-height: auto !important;
 }
-[class$="-Editor"] > div:last-child {
-    background: white;
-    border-color: var(--grey) !important;
+[class$='-Editor'] > div:last-child {
+  background: white;
+  border-color: var(--grey) !important;
 }
-[class$="-Editor"] [contenteditable="true"] {
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-top: 5px;
+[class$='-Editor'] [contenteditable='true'] {
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
 }
-[class$="-Editor"] [contenteditable="true"] p {
-    margin-bottom: 0;
+[class$='-Editor'] [contenteditable='true'] p {
+  margin-bottom: 0;
 }
-
 
 /* ASIDE */
-[class*="-TreeNavLink-TreeNavLink"] > div > div:nth-child(2) {
-    display: none;
+[class*='-TreeNavLink-TreeNavLink'] > div > div:nth-child(2) {
+  display: none;
 }
-aside ul [class*="-IconWrapper"]::before {
-    display: inline-block;
-    font-family: bootstrap-icons !important;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: normal !important;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    vertical-align: -.125em;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+aside ul [class*='-IconWrapper']::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -0.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-aside ul [class*="-IconWrapper"] svg,
+aside ul [class*='-IconWrapper'] svg,
 aside h2 {
-    display: none;
+  display: none;
 }
 aside ul span::before {
-    content: '\F392';
+  content: '\F392';
 }
-aside [href="#/collections/indexes"] span::before {
-    content: '\F2EC';
+aside [href='#/collections/indexes'] span::before {
+  content: '\F2EC';
 }
-aside [href="#/collections/config"] span::before {
-    content: '\F3E5';
+aside [href='#/collections/config'] span::before {
+  content: '\F3E5';
 }
-aside [href="#/collections/posts"] span::before {
-    content: '\F38B';
+aside [href='#/collections/posts'] span::before {
+  content: '\F38B';
 }
-aside [href="#/collections/persons"] span::before {
-    content: '\F4D0';
+aside [href='#/collections/persons'] span::before {
+  content: '\F4D0';
 }
-aside [href="#/collections/categories"] span::before {
-    content: '\F1A4';
+aside [href='#/collections/categories'] span::before {
+  content: '\F1A4';
 }
-aside [href="#/collections/tags"] span::before {
-    content: '\F5B2';
+aside [href='#/collections/tags'] span::before {
+  content: '\F5B2';
 }
-aside [href="#/collections/projects"] span::before {
-    content: '\F383';
+aside [href='#/collections/projects'] span::before {
+  content: '\F383';
 }
-aside [href="#/collections/projects_types"] span::before {
-    content: '\F1A4';
+aside [href='#/collections/projects_types'] span::before {
+  content: '\F1A4';
 }
-aside [href="#/collections/projects_tags"] span::before {
-    content: '\F5B2';
+aside [href='#/collections/projects_tags'] span::before {
+  content: '\F5B2';
 }
-aside [href="#/collections/casestudies"] span::before {
-    content: '\F194';
+aside [href='#/collections/casestudies'] span::before {
+  content: '\F194';
 }
-aside [href="#/collections/publications"] span::before {
-    content: '\F4A3';
+aside [href='#/collections/publications'] span::before {
+  content: '\F4A3';
 }
-aside [href="#/collections/publications_categories"] span::before {
-    content: '\F1A4';
+aside [href='#/collections/publications_categories'] span::before {
+  content: '\F1A4';
 }
-aside [href="#/collections/expertises"] span::before {
-    content: '\F585';
+aside [href='#/collections/expertises'] span::before {
+  content: '\F585';
 }
-aside [href="#/collections/places"] span::before {
-    content: '\F543';
+aside [href='#/collections/places'] span::before {
+  content: '\F543';
 }
-aside [href="#/collections/realestates"] span::before {
-    content: '\F8C6';
+aside [href='#/collections/realestates'] span::before {
+  content: '\F8C6';
 }
-aside [href="#/collections/realestates_sellers"] span::before {
-    content: '\F705';
+aside [href='#/collections/realestates_sellers'] span::before {
+  content: '\F705';
 }
-aside [href="#/collections/realestates_categories"] span::before {
-    content: '\F1A4';
+aside [href='#/collections/realestates_categories'] span::before {
+  content: '\F1A4';
 }
-aside [href="#/collections/services"] span::before {
-    content: '\F4D6';
+aside [href='#/collections/services'] span::before {
+  content: '\F4D6';
 }
-aside [href="#/collections/services_categories"] span::before {
-    content: '\F1A4';
+aside [href='#/collections/services_categories'] span::before {
+  content: '\F1A4';
 }

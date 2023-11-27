@@ -1,37 +1,30 @@
-import { isNotIndex } from '../fields/is-not-index.js'
-import { draft } from '../fields/draft.js'
-import { title } from '../fields/title.js'
-import { description } from '../fields/description.js'
-import { body } from '../fields/body.js'
-import { featured_image } from '../fields/featured-image.js'
-import {t} from "../i18n/translater.js";
+import { isNotIndex } from '../fields/is-not-index.js';
+import { draft } from '../fields/draft.js';
+import { title } from '../fields/title.js';
+import { description } from '../fields/description.js';
+import { body } from '../fields/body.js';
+import { featured_image } from '../fields/featured-image.js';
+import { t } from '../i18n/translater.js';
 
 const expertises = {
-    name: 'expertises',
-    folder: 'content/expertises',
-    label: t.content.expertises.label,
-    label_singular: t.content.expertises.label_singular,
-    description: t.content.expertises.description,
-    
-    create: true,
-    editor: { preview: false },
-    i18n: true,
+  name: 'expertises',
+  folder: 'content/expertises',
+  label: t.content.expertises.label,
+  label_singular: t.content.expertises.label_singular,
+  description: t.content.expertises.description,
 
-    nested: { depth: 2 },
-    filter: { field: 'isIndex', value: false },
-    
-    slug: '{{slug}}',
-    sortable_fields: ['title'],
-    summary: '{{title}}',
+  create: true,
+  editor: { preview: false },
+  i18n: true,
 
-    fields: [
-        isNotIndex,
-        draft,
-        title,
-        description,
-        body,
-        featured_image
-    ]
-}
+  nested: { depth: 2 },
+  filter: { field: 'isIndex', value: false },
 
-export default expertises
+  slug: '{{slug}}',
+  sortable_fields: ['title'],
+  summary: '{{title}}',
+
+  fields: [isNotIndex, draft, title, description, body, featured_image]
+};
+
+export default expertises;

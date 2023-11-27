@@ -1,28 +1,25 @@
-import { isNotIndex } from '../fields/is-not-index.js'
-import { title } from '../fields/title.js'
-import {t} from "../i18n/translater.js";
+import { isNotIndex } from '../fields/is-not-index.js';
+import { title } from '../fields/title.js';
+import { t } from '../i18n/translater.js';
 
 const projects_tags = {
-    name: 'projects_tags',
-    folder: 'content/projects_tags',
-    label: t.content.projects_tags.label,
-    label_singular: t.content.projects_tags.label_singular,
-    description: t.content.projects_tags.description,
-    
-    create: true,
-    editor: { preview: false },
-    i18n: true,
+  name: 'projects_tags',
+  folder: 'content/projects_tags',
+  label: t.content.projects_tags.label,
+  label_singular: t.content.projects_tags.label_singular,
+  description: t.content.projects_tags.description,
 
-    slug: '{{slug}}',
-    path: '{{slug}}/_index',
+  create: true,
+  editor: { preview: false },
+  i18n: true,
 
-    nested: { depth: 2 },
-    filter: { field: 'isIndex', value: false },
+  slug: '{{slug}}',
+  path: '{{slug}}/_index',
 
-    fields: [
-        isNotIndex,
-        title
-    ]
-}
+  nested: { depth: 2 },
+  filter: { field: 'isIndex', value: false },
 
-export default projects_tags
+  fields: [isNotIndex, title]
+};
+
+export default projects_tags;

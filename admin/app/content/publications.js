@@ -1,45 +1,45 @@
-import { isNotIndex } from '../fields/is-not-index.js'
-import { draft } from '../fields/draft.js'
-import { date } from '../fields/date.js'
-import { title } from '../fields/title.js'
-import { description } from '../fields/description.js'
-import { press } from '../fields/press.js'
-import { publications_persons } from '../fields/publications_persons.js'
-import { featured_image } from '../fields/featured-image.js'
-import { images } from '../fields/images.js'
-import { body } from '../fields/body.js'
-import {t} from "../i18n/translater.js";
+import { isNotIndex } from '../fields/is-not-index.js';
+import { draft } from '../fields/draft.js';
+import { date } from '../fields/date.js';
+import { title } from '../fields/title.js';
+import { description } from '../fields/description.js';
+import { press } from '../fields/press.js';
+import { publications_persons } from '../fields/publications_persons.js';
+import { featured_image } from '../fields/featured-image.js';
+import { images } from '../fields/images.js';
+import { body } from '../fields/body.js';
+import { t } from '../i18n/translater.js';
 
 const publications = {
-    name: 'publications',
-    folder: 'content/publications',
-    label: t.content.publications.label,
-    label_singular: t.content.publications.label_singular,
-    description: t.content.publications.description,
-    
-    create: true,
-    editor: { preview: false },
-    i18n: true,
+  name: 'publications',
+  folder: 'content/publications',
+  label: t.content.publications.label,
+  label_singular: t.content.publications.label_singular,
+  description: t.content.publications.description,
 
-    path: '{{year}}/{{month}}/{{slug}}',
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}',
-    sortable_fields: ['date', 'title'],
-    summary: '{{title}} — {{year}}',
+  create: true,
+  editor: { preview: false },
+  i18n: true,
 
-    filter: { field: 'isIndex', value: false },
+  path: '{{year}}/{{month}}/{{slug}}',
+  slug: '{{year}}-{{month}}-{{day}}-{{slug}}',
+  sortable_fields: ['date', 'title'],
+  summary: '{{title}} — {{year}}',
 
-    fields: [
-        isNotIndex,
-        draft,
-        date,
-        publications_persons,
-        title,
-        description,
-        press,
-        featured_image,
-        images,
-        body
-    ]
-}
+  filter: { field: 'isIndex', value: false },
 
-export default publications
+  fields: [
+    isNotIndex,
+    draft,
+    date,
+    publications_persons,
+    title,
+    description,
+    press,
+    featured_image,
+    images,
+    body
+  ]
+};
+
+export default publications;

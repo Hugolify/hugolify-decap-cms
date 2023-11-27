@@ -14,29 +14,29 @@ import { mediaLibrary } from './settings/media-library.js';
 import { availableLanguages } from './settings/available-languages.js';
 
 export let config = {
-    backend,
-    load_config_file,
-    local_backend,
-    display_url,
-    logo_url,
-    locale,
+  backend,
+  load_config_file,
+  local_backend,
+  display_url,
+  logo_url,
+  locale,
 
-    // files
-    media_folder,
-    public_folder,
+  // files
+  media_folder,
+  public_folder,
 
-    // content
-    slug
-}
+  // content
+  slug
+};
 
 // i18n support
 if (availableLanguages.length > 1) {
-    config.i18n = i18n
+  config.i18n = i18n;
 }
 
 // If media library
 if (mediaLibrary) {
-    config.media_library = media_library;
+  config.media_library = media_library;
 }
 
-export default config
+export default config;

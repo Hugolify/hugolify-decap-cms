@@ -1,5 +1,5 @@
 export const backend = {
-    name: 'git-gateway',
-    branch: 'main'
+  name: 'git-gateway',
+  branch: 'main'
 };
-export default backend
+export default backend;
