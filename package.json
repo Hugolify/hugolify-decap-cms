@@ -10,5 +10,8 @@
         "name": "Sébastien Moulène",
         "url": "https://www.sebastienmoulene.com/"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "@hugolify/prettier-config": "^0.3.1"
+    }
 }
