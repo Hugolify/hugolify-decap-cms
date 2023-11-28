@@ -1,4 +1,5 @@
 export const shortcodes = {
+  blockquote: "Blockquote",
   button: 'Button',
   collapsible_note: {
     label: 'Collapsible note',
