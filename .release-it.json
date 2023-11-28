@@ -2,7 +2,7 @@
   "github": {
     "release": true
   },
-   "git": {
+  "git": {
     "commitMessage": "chore: release v${version}"
   },
   "npm": {

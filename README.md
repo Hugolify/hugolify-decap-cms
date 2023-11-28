@@ -12,9 +12,10 @@
 - [Documentations](#documentations)
 - [License](#license)
 
-
 ## Settings
+
 https://github.com/Hugolify/hugolify-decap-cms/tree/main/admin/app/settings
+
 - Available blocks
 - Available collections
 - Available languages
@@ -22,6 +23,7 @@ https://github.com/Hugolify/hugolify-decap-cms/tree/main/admin/app/settings
 - media-library
 
 ## Features
+
 - rubrics `create false`
 - pages
 - projects
@@ -39,8 +41,9 @@ https://github.com/Hugolify/hugolify-decap-cms/tree/main/admin/app/settings
     - social
   - top banner
   - seo
- 
+
 ## Extras features
+
 - casestudies
 - expertises
 - place
@@ -53,30 +56,40 @@ https://github.com/Hugolify/hugolify-decap-cms/tree/main/admin/app/settings
   - persons (services taxonomy)
 
 ## Screenshot
+
 ![Home](https://user-images.githubusercontent.com/4457294/207929597-f0d02e09-d2ee-44ca-8c65-efad0293356b.png)
 
 ## Linked repository
-* Template Hugolify : [Hugolify template](https://github.com/hugolify/hugolify-template)
+
+- Template Hugolify : [Hugolify template](https://github.com/hugolify/hugolify-template)
 
 ## Live demo
+
 - Front: https://demo.hugolify.io
 
 ## Install
 
 ### Modules
+
 Edit `config/_default/module.yaml` to install the `hugolify-decap-cms` module:
+
 ```yml
 imports:
   - path: github.com/hugolify/hugolify-decap-cms
 ```
+
 ### Submodules
+
 Add this repository as a subdomain in your hugo project:
+
 ```
 git submodule add git@github.com:hugolify/hugolify-decap-cms static
 ```
 
 ## Documentations
+
 https://github.com/hugolify/hugolify-template/wiki
 
 ## License
+
 Hugolify is free for personal or commercial projects (MIT license)

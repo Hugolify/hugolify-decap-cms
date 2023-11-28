@@ -1,45 +1,45 @@
-import { isNotIndex } from '../fields/is-not-index.js'
-import { draft } from '../fields/draft.js'
-import { date } from '../fields/date.js'
-import { title } from '../fields/title.js'
-import { description } from '../fields/description.js'
-import { featured_image } from '../fields/featured-image.js'
-import { body } from '../fields/body.js'
-import { categories } from '../fields/categories.js'
-import { tags } from '../fields/tags.js'
-import { authors } from '../fields/authors.js'
-import {t} from "../i18n/translater.js";
+import { isNotIndex } from '../fields/is-not-index.js';
+import { draft } from '../fields/draft.js';
+import { date } from '../fields/date.js';
+import { title } from '../fields/title.js';
+import { description } from '../fields/description.js';
+import { featured_image } from '../fields/featured-image.js';
+import { body } from '../fields/body.js';
+import { categories } from '../fields/categories.js';
+import { tags } from '../fields/tags.js';
+import { authors } from '../fields/authors.js';
+import { t } from '../i18n/translater.js';
 
 const posts = {
-    name: 'posts',
-    folder: 'content/posts',
-    label: t.content.posts.label,
-    label_singular: t.content.posts.label_singular,
-    description: t.content.posts.description,
-    
-    create: true,
-    editor: { preview: false },
-    i18n: true,
+  name: 'posts',
+  folder: 'content/posts',
+  label: t.content.posts.label,
+  label_singular: t.content.posts.label_singular,
+  description: t.content.posts.description,
 
-    path: '{{year}}/{{month}}/{{slug}}',
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}',
-    sortable_fields: ['date', 'title'],
-    summary: '{{title}} — {{year}}/{{month}}/{{day}}',
+  create: true,
+  editor: { preview: false },
+  i18n: true,
 
-    filter: { field: 'isIndex', value: false },
+  path: '{{year}}/{{month}}/{{slug}}',
+  slug: '{{year}}-{{month}}-{{day}}-{{slug}}',
+  sortable_fields: ['date', 'title'],
+  summary: '{{title}} — {{year}}/{{month}}/{{day}}',
 
-    fields: [
-        isNotIndex,
-        draft,
-        date,
-        title,
-        description,
-        categories,
-        tags,
-        authors,
-        featured_image,
-        body
-    ]
-}
+  filter: { field: 'isIndex', value: false },
 
-export default posts
+  fields: [
+    isNotIndex,
+    draft,
+    date,
+    title,
+    description,
+    categories,
+    tags,
+    authors,
+    featured_image,
+    body
+  ]
+};
+
+export default posts;

@@ -1,8 +1,8 @@
-import {t} from "../i18n/translater.js";
+import { t } from '../i18n/translater.js';
 
 export const date = {
-    name: 'date',
-    label: t.fields.date.title,
-    widget: 'datetime',
-    i18n: 'duplicate'
-}
+  name: 'date',
+  label: t.fields.date.title,
+  widget: 'datetime',
+  i18n: 'duplicate'
+};
