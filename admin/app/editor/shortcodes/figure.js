@@ -25,8 +25,16 @@ CMS.registerEditorComponent({
     }" credit="${obj.credit ?? ''}" >}}`;
   },
   toPreview: function (obj) {
-    return `{{< figure src="${obj.src ?? ''}" alt="${obj.alt ?? ''}" legend="${
-      obj.legend ?? ''
-    }" credit="${obj.credit ?? ''}" >}}`;
+    return `
+      <figure>
+        <picture>
+          <img src="${obj.src ?? ''}" alt="${obj.alt ?? ''}" />
+        </picture>
+        <figcaption>
+          <p>${obj.legend ?? ''}</p>
+          <p class="credit">${obj.credit ?? ''}</p>
+        </figcaption>
+      </figure>
+    `;
   }
 });

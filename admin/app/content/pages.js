@@ -16,7 +16,7 @@ const pages = {
   description: t.content.pages.description,
 
   create: true,
-  editor: { preview: false },
+  editor: { preview: true },
   i18n: true,
 
   slug: '{{slug}}',

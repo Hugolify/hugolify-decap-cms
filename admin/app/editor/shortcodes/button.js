@@ -7,7 +7,11 @@ import { t } from '../../i18n/translater.js';
 CMS.registerEditorComponent({
   id: 'button',
   label: t.shortcodes.button,
-  fields: [text, url, blank],
+  fields: [
+    text, 
+    url, 
+    blank
+  ],
   pattern: /{{< button text="(.*)" url="(.*)" blank="(true|false)" >}}/,
   fromBlock: function (match) {
     return {
@@ -20,6 +24,6 @@ CMS.registerEditorComponent({
     return `{{< button text="${obj.text}" url="${obj.url}" blank="${obj.blank}" >}}`;
   },
   toPreview: function (obj) {
-    return `<a class="btn" href="${obj.url}">${obj.text}</a>`;
+    return `<a class="btn btn-primary" href="${obj.url}">${obj.text}</a>`;
   }
 });
