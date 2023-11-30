@@ -228,6 +228,20 @@ export const fields = {
     hint: 'Name of the icon, doc : https://fonts.google.com/icons?icon.set=Material+Icons'
   },
   name: 'Name',
+  notes: {
+    label: 'Notes',
+    label_singular: 'Note',
+    hint: 'Link the note to a word by adding "[n]" after it, with n the number of the note. Eg: "SEO[1]" in the text, and in notes: 1: "Search engine optimisation".',
+    fields: {
+      id: {
+        label: 'Id',
+        hint: 'Identifier of the note. Eg: "1" to link the note with [1] in the paragraph.'
+      },
+      text: {
+        label: 'Text'
+      }
+    }
+  },
   offer: 'Offer',
   offset: {
     label: 'Offset',
