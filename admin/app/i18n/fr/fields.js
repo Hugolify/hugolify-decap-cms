@@ -230,14 +230,15 @@ export const fields = {
   notes: {
     label: 'Notes',
     label_singular: 'Note',
-    hint: 'Liez la note à un mot en le suffixant de "[n]", avec n le numéro de la note. Ex: "SEO[1]" dans le texte, et dans les notes: 1: "Search engine optimisation".',
+    hint: 'Liez la note à un mot en le suffixant de "[n]", avec n le numéro de la note. Ex: "SEO[1]" dans le texte, et dans les notes: 1: "Désigne le Search engine optimisation".',
     fields: {
       id: {
         label: 'Id',
         hint: 'Identifiant de la note. Ex: "1" pour lier la note au [1] dans le paragraphe.'
       },
       text: {
-        label: 'Texte'
+        label: 'Texte',
+        hint: 'Ex: "Désigne le Search engine optimisation"'
       }
     }
   },

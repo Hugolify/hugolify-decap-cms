@@ -17,6 +17,11 @@ export const notes = {
       name: 'id',
       widget: 'number'
     },
-    { label: t.fields.notes.fields.text.label, name: 'text', widget: 'text' }
+    {
+      label: t.fields.notes.fields.text.label,
+      hint: t.fields.notes.fields.text.hint,
+      name: 'text',
+      widget: 'text'
+    }
   ]
 };

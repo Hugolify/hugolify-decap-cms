@@ -238,7 +238,8 @@ export const fields = {
         hint: 'Identifier of the note. Eg: "1" to link the note with [1] in the paragraph.'
       },
       text: {
-        label: 'Text'
+        label: 'Text',
+        hint: 'Eg: "Mean Search engine optimisation"'
       }
     }
   },
