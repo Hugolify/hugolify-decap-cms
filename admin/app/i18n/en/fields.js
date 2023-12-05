@@ -24,6 +24,7 @@ export const fields = {
     label: 'Authors?',
     hint: 'Many authors possible'
   },
+  autoplay: 'Autoplay?',
   background: 'Add background color?',
   background_color: 'Background color',
   blank: 'Open in new page?',
@@ -96,6 +97,7 @@ export const fields = {
   color: 'Color',
   column: 'Number of columns',
   contact: 'Contact',
+  controls: 'Control buttons?',
   count: 'Number of elements',
   credit: 'Credit',
   cta: 'Button',
@@ -290,6 +292,10 @@ export const fields = {
   show_gauge: 'Display a progress gauge?',
   show_more: 'Display a button to discover more elements?',
   sold: 'Sold?',
+  screenshot: {
+    label: 'Screenshot?',
+    hint: 'This will add a browser skin'
+  }, 
   state: {
     label: 'State',
     options: {
@@ -314,6 +320,7 @@ export const fields = {
   text_area: 'Text',
   text_markdown: 'Text',
   title: 'Title / Name',
+  transcription: 'Transcription',
   twitter: {
     label: 'Twitter',
     hint: 'Username'
@@ -321,6 +328,18 @@ export const fields = {
   url: 'URL',
   value: 'Value',
   value_number: 'Value',
+  video: {
+    label: 'Video',
+    mp4: {
+      label: 'MP4',
+      hint: 'Video in MP4 format'
+    },
+    poster: 'Image from video',
+    webm: {
+      label: 'WEBM',
+      hint: 'Video in WEBM format'
+    }
+  },
   website: {
     label: 'Website',
     hint: 'URL (https://…)'

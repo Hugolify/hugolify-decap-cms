@@ -60,9 +60,10 @@ input[id*='color'] {
 }
 [class*='TopBarContainer'] + div label {
   font-size: 12px;
+  background-color: transparent !important;
 }
 [class*='ControlContainer'] > label::after {
-  content: none;
+  content: none !important;
 }
 [class*='ControlContainer'] > div {
   /* border: 1px dashed var(--grey); */
@@ -345,6 +346,28 @@ div[id^='documents-field'] {
 }
 [id^='diagnostic-field'] > div > div {
   width: 49%;
+}
+
+/* Video */
+[id^='video-field'] {
+  background-color: var(--lightgrey) !important;
+}
+[id^='video-field'] > div:nth-child(2) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+[id^='video-field'] > div:nth-child(2) > div {
+  flex-basis: 49%;
+}
+[id^='video-field'] [class*='-ControlContainer']:has(> [for^='controls-field']),
+[id^='video-field'] [class*='-ControlContainer']:has(> [for^='screenshot-field']),
+[id^='video-field'] [class*='-ControlContainer']:has(> [for^='autoplay-field']) {
+  flex-basis: 33%;
+  flex-direction: column;
+}
+[id^='video-field'] [class*='ControlContainer'] > div {
+  padding-left: 0;
 }
 
 /* TAXONOMIES */
