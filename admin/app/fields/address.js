@@ -35,7 +35,8 @@ export const address = {
     },
     {
       name: 'coordinates',
-      label: t.fields.address.fields.coordinates,
+      label: t.fields.address.fields.coordinates.label,
+      hint: t.fields.address.fields.coordinates.hint,
       widget: 'object',
       required: false,
       collapsed: true,
@@ -44,14 +45,14 @@ export const address = {
           name: 'lat',
           label: t.fields.address.fields.lat,
           widget: 'number',
-          value_type: 'int',
+          value_type: 'float',
           required: false
         },
         {
           name: 'lng',
           label: t.fields.address.fields.lng,
           widget: 'number',
-          value_type: 'int',
+          value_type: 'float',
           required: false
         }
       ]

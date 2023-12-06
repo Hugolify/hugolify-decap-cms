@@ -6,7 +6,10 @@ export const fields = {
       zipcode: 'Code postal',
       city: 'Ville',
       country: 'Pays',
-      coordinates: 'Coordonnées géographique',
+      coordinates: {
+        label: 'Coordonnées géographique',
+        hint: 'Pour connaitre facilement vos coordonnées : https://www.latlong.net/convert-address-to-lat-long.html'
+      },
       lat: 'Latitude',
       lng: 'Longitude'
     }
@@ -244,6 +247,9 @@ export const fields = {
     hint: 'Compresser le PDF avant de l’envoyer  https://www.adobe.com/fr/acrobat/online/compress-pdf.html'
   },
   persons: 'Personnes',
+  persons_expertises: 'Expert en ?',
+  persons_places: 'Rattaché à un ou plusieurs lieux ?',
+  persons_statutes: 'Satut',
   phone: {
     label: 'Téléphone',
     hint: '+33 (0) …'

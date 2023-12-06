@@ -6,7 +6,10 @@ export const fields = {
       zipcode: 'Zipcode',
       city: 'City',
       country: 'Country',
-      coordinates: 'Coordonnées',
+      coordinates: {
+        label: 'Geographic coordinates',
+        hint: 'To easily find your coordinates: https://www.latlong.net/convert-address-to-lat-long.html'
+      },
       lat: 'Latitude',
       lng: 'Longitude'
     }
@@ -245,6 +248,9 @@ export const fields = {
     hint: 'Compress PDF before sending: https://www.adobe.com/fr/acrobat/online/compress-pdf.html'
   },
   persons: 'Persons',
+  persons_expertises: 'Expert in?',
+  persons_places: 'Attached to one or more places?',
+  persons_statutes: 'Status',
   phone: {
     label: 'Phone',
     hint: ' '
