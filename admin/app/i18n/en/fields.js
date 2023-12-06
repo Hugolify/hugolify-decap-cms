@@ -301,7 +301,7 @@ export const fields = {
   screenshot: {
     label: 'Screenshot?',
     hint: 'This will add a browser skin'
-  }, 
+  },
   state: {
     label: 'State',
     options: {
@@ -350,5 +350,6 @@ export const fields = {
     label: 'Website',
     hint: 'URL (https://…)'
   },
+  weight: 'Importance order',
   zoom: 'Zoom'
 };

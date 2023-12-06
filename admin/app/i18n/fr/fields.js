@@ -349,5 +349,6 @@ export const fields = {
     label: 'Site web',
     hint: 'URL (https://…)'
   },
+  weight: 'Ordre d’importance',
   zoom: 'Zoom'
 };
