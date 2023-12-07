@@ -24,7 +24,7 @@ const expertises = {
   sortable_fields: ['title'],
   summary: '{{title}}',
 
-  fields: [isNotIndex, draft, title, description, body, featured_image]
+  fields: [isNotIndex, draft, title, description, featured_image, body]
 };
 
 export default expertises;

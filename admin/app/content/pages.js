@@ -33,8 +33,8 @@ const pages = {
     description,
     featured_image,
     hero,
-    blocks,
-    body
+    body,
+    blocks
   ],
   meta: {
     path: {
