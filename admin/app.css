@@ -40,6 +40,10 @@ input[id*='color'] {
   padding-left: 75px !important;
 }
 
+label::after {
+  content: none !important;
+}
+
 [aria-current='page'],
 [aria-current='page'] svg {
   color: var(--primary-color) !important;
@@ -62,11 +66,9 @@ input[id*='color'] {
   font-size: 12px;
   background-color: transparent !important;
 }
-[class*='ControlContainer'] > label::after {
-  content: none !important;
-}
+
 [class*='ControlContainer'] > div {
-  background: transparent;
+  background: transparent !important;
   border: 0;
   padding-bottom: 0 !important;
 }
@@ -425,9 +427,6 @@ div[id^='documents-field'] {
 [class*='-SortableListItem'] {
   background-color: var(--midgrey) !important;
 }
-[class*='-SortableListItem'] {
-  background-color: var(--midgrey) !important;
-}
 [class*='-SortableListItem'] > div {
   background-color: transparent !important;
   border: 0;
@@ -445,6 +444,18 @@ div > div[id^='blocks-field-'] {
 div > div[id^='blocks-field-'] [class*='-TopBarContainer'] {
   background-color: var(--midgrey) !important;
   margin: 0;
+}
+div[id^='blocks-field-'] [class*='StyledDropdownButton'] {
+  background: var(--primary-color);
+}
+div
+  > div[id^='blocks-field-']
+  [class*='-TopBarContainer']
+  + div
+  [class*='-TopBarContainer']
+  + div
+  [class*='-TopBarContainer'] {
+  background-color: var(--grey) !important;
 }
 div > div[id^='blocks-field-'] > [class*='-TopBarContainer'] {
   background-color: transparent !important;
