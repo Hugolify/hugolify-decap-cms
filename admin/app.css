@@ -199,6 +199,8 @@ div:has(> [role='textbox']) {
 }
 [class*='ControlPaneContainer']
   > [class*='ControlContainer']:last-child
+  [for^='body-field']
+  + div
   div:has(> [role='textbox']) {
   min-height: 400px;
 }
@@ -228,9 +230,7 @@ div:has(> [role='textbox']) {
 [id^='images-field'] > div:last-child > div:nth-child(3) {
   clear: left;
 }
-[id^='gallery-field']
-  [class*='-ControlContainer']:nth-child(2)
-  + div:not(:last-child) {
+[id^='gallery-field'] [class*='-ControlContainer']:nth-child(2) + div {
   float: left;
   width: 49%;
 }
@@ -277,6 +277,11 @@ div[id^='documents-field'] {
 
 /* CONTACT FIELD */
 [id^='contact-field'] {
+  background-color: var(--lightgrey) !important;
+}
+
+/* DATAS */
+[id^='datas-field'] {
   background-color: var(--lightgrey) !important;
 }
 
@@ -416,6 +421,18 @@ div[id^='documents-field'] {
   margin-bottom: 0;
 }
 
+/* SORTABLE */
+[class*='-SortableListItem'] {
+  background-color: var(--midgrey) !important;
+}
+[class*='-SortableListItem'] {
+  background-color: var(--midgrey) !important;
+}
+[class*='-SortableListItem'] > div {
+  background-color: transparent !important;
+  border: 0;
+}
+
 /* BLOCKS */
 div:has(> div[id^='blocks-field-']) {
   border-top: 1px solid var(--grey);
@@ -435,14 +452,6 @@ div > div[id^='blocks-field-'] > [class*='-TopBarContainer'] {
 }
 div
   > div[id^='blocks-field-']
-  [class*='-SortableListItem']
-  [class*='-SortableListItem']
-  > div {
-  background-color: transparent !important;
-  border: 0;
-}
-div
-  > div[id^='blocks-field-']
   > [class*='-TopBarContainer']
   > div:nth-child(1) {
   display: none;
@@ -451,12 +460,12 @@ div > div[id^='blocks-field-'] > [class*='-TopBarContainer'] + div > div > div {
   background-color: var(--lightgrey) !important;
   border: 0;
 }
-div
+/* div
   > div[id^='blocks-field-']
   [class*='-SortableListItem']
   [class*='-SortableListItem'] {
   background-color: var(--midgrey) !important;
-}
+} */
 div
   > div[id^='blocks-field-']
   > [class*='-TopBarContainer']
