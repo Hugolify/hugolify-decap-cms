@@ -233,6 +233,14 @@ export const fields = {
     hint: 'Name of the icon, doc : https://fonts.google.com/icons?icon.set=Material+Icons'
   },
   name: 'Name',
+  notes: {
+    label: 'Notes',
+    label_singular: 'Note',
+    hint: 'Add a note, then link a word to the note by writing "[\\*]" after it. Notes and "[\\*]" are linked by their order.',
+    field: {
+      label: 'Text'
+    }
+  },
   offer: 'Offer',
   offset: {
     label: 'Offset',
