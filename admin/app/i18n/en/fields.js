@@ -236,7 +236,7 @@ export const fields = {
   notes: {
     label: 'Notes',
     label_singular: 'Note',
-    hint: 'Add a note, then link a word to the note by writing "[\\*]" after it. Notes and "[\\*]" are linked by their order.',
+    hint: 'To link a word in the text to a note, suffix it with "[\*]". Notes and "[\\*]" are linked by their order.',
     field: {
       label: 'Text'
     }
