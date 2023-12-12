@@ -232,6 +232,14 @@ export const fields = {
     hint: 'Le nom de l’icon, doc : https://fonts.google.com/icons?icon.set=Material+Icons'
   },
   name: 'Nom',
+  notes: {
+    label: 'Notes',
+    label_singular: 'Note',
+    hint: 'Pour lier un mot du texte à une note, suffixez le avec "[\\*]". Les notes et les "[\\*]" sont liés par leur ordre.',
+    field: {
+      label: 'Texte'
+    }
+  },
   offer: 'Offre',
   offset: {
     label: 'Alignement',
