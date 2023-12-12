@@ -50,7 +50,7 @@ export const fields = {
       },
       focus: {
         label: 'Focus',
-        hint: 'Le slide actif est-il au centre de l’écran ?'
+        hint: 'Is the active slide in the center of the screen?'
       },
       gap: {
         label: 'Padding',
@@ -230,7 +230,7 @@ export const fields = {
   location: 'Location',
   material_icons: {
     label: 'Icon',
-    hint: 'Name of the icon, doc : https://fonts.google.com/icons?icon.set=Material+Icons'
+    hint: 'Name of the icon, doc: https://fonts.google.com/icons?icon.set=Material+Icons'
   },
   name: 'Name',
   notes: {
