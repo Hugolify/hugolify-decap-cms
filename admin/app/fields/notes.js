@@ -10,16 +10,10 @@ export const notes = {
   minimize_collapsed: true,
   required: false,
   i18n: true,
+  summary: "{{text | truncate(50, '…')}}",
   fields: [
     {
-      label: t.fields.notes.fields.id.label,
-      hint: t.fields.notes.fields.id.hint,
-      name: 'id',
-      widget: 'number'
-    },
-    {
-      label: t.fields.notes.fields.text.label,
-      hint: t.fields.notes.fields.text.hint,
+      label: t.fields.notes.field.label,
       name: 'text',
       widget: 'text'
     }

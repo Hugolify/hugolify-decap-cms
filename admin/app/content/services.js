@@ -33,8 +33,8 @@ const services = {
     services_categories,
     services_persons,
     description,
-    body,
-    featured_image
+    featured_image,
+    body
   ]
 };
 

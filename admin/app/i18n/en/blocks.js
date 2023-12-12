@@ -144,5 +144,6 @@ export const blocks = {
       }
     }
   },
-  title: 'Title'
+  title: 'Title',
+  video: 'Video'
 };

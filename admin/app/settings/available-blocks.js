@@ -29,3 +29,4 @@ export { block_selectedprojects } from '../blocks/selected-projects.js';
 // export { block_selectedservices } from "../blocks/selected-services.js"
 export { block_testimonials } from '../blocks/testimonials.js';
 export { block_title } from '../blocks/title.js';
+export { block_video } from '../blocks/video.js';
