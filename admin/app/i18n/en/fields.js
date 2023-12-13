@@ -305,6 +305,10 @@ export const fields = {
   },
   show_gauge: 'Display a progress gauge?',
   show_more: 'Display a button to discover more elements?',
+  show_places: {
+    label: 'Display all registered places?',
+    hint: 'Only if you have places already saved (this will disable the marker below)'
+  },
   sold: 'Sold?',
   screenshot: {
     label: 'Screenshot?',

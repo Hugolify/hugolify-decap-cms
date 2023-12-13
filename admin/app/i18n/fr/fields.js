@@ -304,6 +304,10 @@ export const fields = {
   },
   show_gauge: 'Afficher une jaune de progression ?',
   show_more: 'Afficher un bouton pour découvrir plus d’éléments ?',
+  show_places: {
+    label: 'Afficher tous les lieux enregistrés ?',
+    hint: 'Seulement si vous avez des lieux déjà enregistrés (ceci désactivera le repère ci-dessous)'
+  },
   sold: 'Vendu ?',
   screenshot: {
     label: 'Capture d’écran ?',

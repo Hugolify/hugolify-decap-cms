@@ -1,4 +1,5 @@
 import { heading } from '../fields/heading.js';
+import { show_places } from '../fields/show-places.js';
 import { map } from '../fields/map.js';
 import { zoom } from '../fields/zoom.js';
 import { grid } from '../fields/grid.js';
@@ -13,5 +14,5 @@ export const block_map = {
   i18n: true,
   collapsed: false,
   summary: '{{title}}',
-  fields: [heading, map, zoom, grid, background]
+  fields: [heading, show_places, map, zoom, grid, background]
 };
