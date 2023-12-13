@@ -272,6 +272,10 @@ export const fields = {
     label: 'Price',
     hint: 'e.g.: 300000 (for 300 000 €)'
   },
+  price_per_unit: {
+    label: 'Price per unit',
+    hint: 'e.g.: 300€ per m2'
+  },
   projects: 'Projects',
   projects_tags: 'Tags',
   projects_types: 'Types',
@@ -339,6 +343,7 @@ export const fields = {
     label: 'Twitter',
     hint: 'Username'
   },
+  unit: 'Unit',
   url: 'URL',
   value: 'Value',
   value_number: 'Value',
