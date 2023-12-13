@@ -1,6 +1,6 @@
 import { isNotIndex } from '../fields/is-not-index.js';
 import { draft } from '../fields/draft.js';
-import { title } from '../fields/title.js';
+import { title } from '../fields/title-required.js';
 import { description } from '../fields/description.js';
 import { body } from '../fields/body.js';
 import { featured_image } from '../fields/featured-image.js';

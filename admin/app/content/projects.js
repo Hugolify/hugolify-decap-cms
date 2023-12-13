@@ -1,10 +1,10 @@
 import { isNotIndex } from '../fields/is-not-index.js';
 import { draft } from '../fields/draft.js';
+import { title } from '../fields/title-required.js';
+import { description } from '../fields/description.js';
 import { date } from '../fields/date.js';
 import { projects_types } from '../fields/projects_types.js';
 import { projects_tags } from '../fields/projects_tags.js';
-import { title } from '../fields/title.js';
-import { description } from '../fields/description.js';
 import { featured_image } from '../fields/featured-image.js';
 import { datas } from '../fields/datas.js';
 import { body } from '../fields/body.js';

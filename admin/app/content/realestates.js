@@ -2,7 +2,7 @@ import { isNotIndex } from '../fields/is-not-index.js';
 import { draft } from '../fields/draft.js';
 import { date } from '../fields/date.js';
 import { reference } from '../fields/reference.js';
-import { title } from '../fields/title.js';
+import { title } from '../fields/title-required.js';
 import { description } from '../fields/description.js';
 import { realestates_persons } from '../fields/realestates_persons.js';
 import { realestates_categories } from '../fields/realestates_categories.js';

@@ -1,5 +1,5 @@
 import { isNotIndex } from '../fields/is-not-index.js';
-import { title } from '../fields/title.js';
+import { title } from '../fields/title-required.js';
 import { t } from '../i18n/translater.js';
 
 const projects_types = {
