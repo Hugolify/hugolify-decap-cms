@@ -12,13 +12,6 @@ export const config = {
       fields: {
         title: 'Name of site'
       }
-    },
-    analytics: {
-      label: 'Scripts analytics',
-      fields: {
-        googleAnalytics: 'Google Analytics (G4)',
-        plausible: 'Enable plausible?'
-      }
     }
   }
 };

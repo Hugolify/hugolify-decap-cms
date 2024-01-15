@@ -77,21 +77,6 @@ const config = {
         image_src,
         twitter
       ]
-    },
-    {
-      name: 'analytics',
-      label: t.config.files.analytics.label,
-      file: 'config/production/config.yaml',
-      i18n: 'duplicate',
-      fields: [
-        {
-          name: 'googleAnalytics',
-          label: t.config.files.analytics.fields.googleAnalytics,
-          widget: 'string',
-          hint: 'G-MEASUREMENT_ID',
-          i18n: 'duplicate'
-        }
-      ]
     }
   ]
 };
