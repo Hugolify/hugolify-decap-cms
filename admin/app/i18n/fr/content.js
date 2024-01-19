@@ -18,11 +18,6 @@ export const content = {
     label: 'Rubriques',
     description: 'La page principale de chaque rubrique'
   },
-  places: {
-    label: 'Lieux',
-    label_singular: 'Lieu',
-    description: 'Tous les lieux'
-  },
   pages: {
     label: 'Pages',
     label_singular: 'Page',
@@ -41,10 +36,20 @@ export const content = {
     label_singular: 'Statut',
     description: 'Tous les statuts des personnes'
   },
+  places: {
+    label: 'Lieux',
+    label_singular: 'Lieu',
+    description: 'Tous les lieux'
+  },
   posts: {
     label: 'Actualités',
     label_singular: 'Actualité',
     description: 'Toutes les actualités'
+  },
+  products: {
+    label: 'Produits',
+    label_singular: 'Produit',
+    description: 'Tous les produits'
   },
   projects: {
     label: 'Projets',

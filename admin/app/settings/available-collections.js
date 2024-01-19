@@ -18,8 +18,8 @@ export default [
   tags,
   projects,
   projects_types,
-  projects_tags,
-  persons
+  projects_tags
+  //persons
   //publications,
   //publications_categories,
   //casestudies,

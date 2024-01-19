@@ -19,11 +19,6 @@ export const content = {
     label_singular: 'Index',
     description: 'Page of each index'
   },
-  places: {
-    label: 'Places',
-    label_singular: 'Place',
-    description: 'All places'
-  },
   pages: {
     label: 'Pages',
     label_singular: 'Page',
@@ -42,9 +37,19 @@ export const content = {
     label_singular: 'Statut',
     description: 'All status of persons'
   },
+  places: {
+    label: 'Places',
+    label_singular: 'Place',
+    description: 'All places'
+  },
   posts: {
     label: 'News',
     label_singular: 'New'
+  },
+  products: {
+    label: 'Products',
+    label_singular: 'Product',
+    description: 'All products'
   },
   projects: {
     label: 'Projects',

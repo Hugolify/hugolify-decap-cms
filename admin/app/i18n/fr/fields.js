@@ -128,6 +128,11 @@ export const fields = {
       rtl: 'image à gauche / texte à droite'
     }
   },
+  discount: {
+    label: 'Réduction',
+    hint: 'Montant de la réduction, ex: 30%',
+    pattern: 'Seulement un montant (sans la devise) ou un pourcentage'
+  },
   documents: 'Documents',
   draft: 'Brouillon',
   email: 'Email',
@@ -271,6 +276,7 @@ export const fields = {
     label: 'Prix',
     hint: 'ex: 300000 (pour 300 000 €)'
   },
+  products: 'Produits',
   projects: 'Projets',
   projects_tags: 'Tags',
   projects_types: 'Types',

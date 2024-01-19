@@ -131,6 +131,7 @@ export const blocks = {
   selectedpersons: 'Persons selection',
   selectedplaces: 'Places selection',
   selectedposts: 'News selection',
+  selectedproducts: 'Products selection',
   selectedprojects: 'Projects selection',
   selectedpublications: 'Publications selection',
   selectedrealestates: 'Real estates selection',

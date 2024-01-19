@@ -68,9 +68,9 @@ label::after {
 }
 
 [class*='ControlContainer'] > div {
-  background: transparent !important;
+  /* background: transparent !important; */
   border: 0;
-  padding-bottom: 0 !important;
+  /* padding-bottom: 0 !important; */
 }
 
 label + [class*='-DateTimeControl'] {
@@ -159,6 +159,9 @@ label + [class*='-DateTimeControl'] {
   border: 1px dashed var(--grey) !important;
   border-radius: var(--border-radius) !important;
 }
+div:has(> [class*='-control']) {
+  border: 0;
+}
 
 [class*='-control'] input[type='text'] {
   border: 0 !important;
@@ -190,6 +193,7 @@ div > div[id*='hero-field-'] {
   white-space: nowrap;
 }
 div:has(> [class*='-ToggleContainer']) {
+  border: 0;
   padding-top: 5px;
   width: auto;
 }
@@ -307,10 +311,13 @@ div[id^='documents-field'] {
 [id^='offer-field'] > div {
   overflow: hidden;
 }
-[id^='offer-field'] [class*='-ControlContainer']:has(> [id^='price-field']) {
+[id^='offer-field'] [class*='-ControlContainer']:has(> [id^='price-field']),
+[id^='offer-field']
+  [class*='-ControlContainer']:has(> div > [class*='-ToggleContainer']) {
   float: left;
   width: 49%;
 }
+[id^='offer-field'] [class*='-ControlContainer']:has(> [id^='discount-field']),
 [id^='offer-field'] [class*='-ControlContainer']:has(> [id^='status-field']) {
   clear: none;
   float: right;
@@ -439,6 +446,7 @@ div:has(> div[id^='blocks-field-']) {
   margin-top: 30px !important;
 }
 div > div[id^='blocks-field-'] {
+  border: 0;
   padding: 0 !important;
 }
 div > div[id^='blocks-field-'] [class*='-TopBarContainer'] {
@@ -490,6 +498,7 @@ div
   > [class*='-TopBarContainer']
   + div
   div:has(> [class*='-TopBarContainer']) {
+  background-color: transparent;
   padding: 0;
 }
 
@@ -534,6 +543,9 @@ aside [href='#/collections/categories'] span::before {
 }
 aside [href='#/collections/tags'] span::before {
   content: '\F5B2';
+}
+aside [href='#/collections/products'] span::before {
+  content: '\F1C7';
 }
 aside [href='#/collections/projects'] span::before {
   content: '\F383';

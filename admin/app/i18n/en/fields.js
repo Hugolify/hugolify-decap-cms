@@ -128,6 +128,11 @@ export const fields = {
       rtl: 'image on left / text on right'
     }
   },
+  discount: {
+    label: 'Discount',
+    hint: 'Discount amount, e.g.: 30%',
+    pattern: 'Only amound (without currency) or percent'
+  },
   documents: 'Documents',
   draft: 'Draft',
   email: 'Email',
@@ -272,6 +277,7 @@ export const fields = {
     label: 'Price',
     hint: 'e.g.: 300000 (for 300 000 €)'
   },
+  products: 'Products',
   projects: 'Projects',
   projects_tags: 'Tags',
   projects_types: 'Types',
