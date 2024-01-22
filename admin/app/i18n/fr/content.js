@@ -51,6 +51,16 @@ export const content = {
     label_singular: 'Produit',
     description: 'Tous les produits'
   },
+  products_categories: {
+    label: 'Catégories de produit',
+    label_singular: 'Catégorie',
+    description: 'Tous les catégories de produit'
+  },
+  products_tags: {
+    label: 'Tags de produit',
+    label_singular: 'Tag',
+    description: 'Tous les tags de produit'
+  },
   projects: {
     label: 'Projets',
     label_singular: 'Projet',

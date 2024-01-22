@@ -3,6 +3,8 @@ import { draft } from '../fields/draft.js';
 import { title } from '../fields/title-required.js';
 import { description } from '../fields/description.js';
 import { offer } from '../fields/offer.js';
+import { products_categories } from '../fields/products_categories.js';
+import { products_tags } from '../fields/products_tags.js';
 import { date } from '../fields/date.js';
 import { featured_image } from '../fields/featured-image.js';
 import { body } from '../fields/body.js';
@@ -32,6 +34,8 @@ const products = {
     title,
     description,
     offer,
+    products_categories,
+    products_tags,
     featured_image,
     images,
     body

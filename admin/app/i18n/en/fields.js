@@ -278,6 +278,8 @@ export const fields = {
     hint: 'e.g.: 300000 (for 300 000 €)'
   },
   products: 'Products',
+  products_categories: 'Categories',
+  products_tags: 'Tags',
   projects: 'Projects',
   projects_tags: 'Tags',
   projects_types: 'Types',
