@@ -9,5 +9,6 @@ export const products_categories = {
   value_field: 'title',
   display_fields: ['title'],
   required: false,
-  multiple: true
+  multiple: true,
+  i18n: 'duplicate'
 };

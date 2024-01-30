@@ -8,5 +8,6 @@ export const press = {
   widget: 'object',
   collapsed: false,
   required: false,
+  i18n: true,
   fields: [title, url]
 };
