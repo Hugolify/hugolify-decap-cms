@@ -1,8 +1,8 @@
 import { t } from '../i18n/translater.js';
 
-export const screenshot = {
-  name: 'screenshot',
-  label: t.fields.screenshot,
+export const image_compression = {
+  name: 'linear',
+  label: t.fields.image_compression,
   widget: 'boolean',
   default: false,
   required: false,

@@ -173,6 +173,7 @@ export const fields = {
     label: 'Alternative text',
     hint: 'For an image that conveys information (leave blank if decorative image)'
   },
+  image_compression: 'Capture d’écran ?',
   image_src: {
     label: 'Image',
     hint: 'Resize and compress image before sending: https://bulkresizephotos.com/fr?quality=0.90&type=width&value=1600'
@@ -228,11 +229,12 @@ export const fields = {
     label: 'Links',
     label_singular: 'Link'
   },
+  location: 'Location',
   logo: {
     label: 'Logo',
     hint: 'Compress logo before sending: https://tinypng.com/'
   },
-  location: 'Location',
+  loop: 'Loop?',
   material_icons: {
     label: 'Icon',
     hint: 'Name of the icon, doc: https://fonts.google.com/icons?icon.set=Material+Icons'
@@ -318,10 +320,7 @@ export const fields = {
     hint: 'Only if you have places already saved (this will disable the marker below)'
   },
   sold: 'Sold?',
-  screenshot: {
-    label: 'Screenshot?',
-    hint: 'This will add a browser skin'
-  },
+  screenshot: 'Add a browser skin?',
   state: {
     label: 'State',
     options: {

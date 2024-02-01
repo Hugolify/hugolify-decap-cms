@@ -172,6 +172,7 @@ export const fields = {
     label: 'Text alternatif',
     hint: 'Pour une image porteuse d’information (laisser vide si image de décoration)'
   },
+  image_compression: 'Capture d’écran ?',
   image_src: {
     label: 'Image',
     hint: 'Redimensionner et compresser l’image avant de l’envoyer : https://bulkresizephotos.com/fr?quality=0.90&type=width&value=1600'
@@ -227,11 +228,12 @@ export const fields = {
     label: 'Liens',
     label_singular: 'Lien'
   },
+  location: 'Localisation',
   logo: {
     label: 'Logo',
     hint: 'Compresser le logo avant de l’envoyer : https://tinypng.com/'
   },
-  location: 'Localisation',
+  loop: 'En boucle ?',
   material_icons: {
     label: 'Icône',
     hint: 'Le nom de l’icon, doc : https://fonts.google.com/icons?icon.set=Material+Icons'
@@ -317,10 +319,7 @@ export const fields = {
     hint: 'Seulement si vous avez des lieux déjà enregistrés (ceci désactivera le repère ci-dessous)'
   },
   sold: 'Vendu ?',
-  screenshot: {
-    label: 'Capture d’écran ?',
-    hint: 'Ceci ajoutera un habillage navigateur'
-  },
+  screenshot: 'Ajouter un habillage navigateur',
   state: {
     label: 'État',
     options: {
