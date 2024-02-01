@@ -379,14 +379,21 @@ div[id^='documents-field'] {
 [id^='video-field'] [class*='-ControlContainer']:has(> [for^='controls-field']),
 [id^='video-field']
   [class*='-ControlContainer']:has(> [for^='screenshot-field']),
-[id^='video-field']
-  [class*='-ControlContainer']:has(> [for^='autoplay-field']) {
+[id^='video-field'] [class*='-ControlContainer']:has(> [for^='autoplay-field']),
+[id^='video-field'] [class*='-ControlContainer']:has(> [for^='loop-field']) {
   flex-direction: column;
   width: 33%;
 }
 [id^='video-field']
+  [class*='-ControlContainer']:has(> [for^='controls-field']) {
+  clear: both;
+}
+[id^='video-field'] [class*='-ControlContainer']:has(> [for^='legend-field']),
+[id^='video-field']
   [class*='-ControlContainer']:has(> [for^='transcription-field']) {
-  float: right;
+  clear: both;
+  float: none;
+  width: 100%;
 }
 [id^='video-field'] [class*='ControlContainer'] > div {
   padding-left: 0;

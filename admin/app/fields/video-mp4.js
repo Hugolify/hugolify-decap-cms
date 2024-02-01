@@ -18,6 +18,6 @@ export const mp4 = {
     }
   },
   hint: t.fields.video.mp4.hint,
-  media_folder: '/static/videos',
-  public_folder: '/videos'
+  media_folder: '/static/assets/videos',
+  public_folder: '/assets/videos'
 };

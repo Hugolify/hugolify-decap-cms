@@ -18,6 +18,6 @@ export const webm = {
     }
   },
   hint: t.fields.video.webm.hint,
-  media_folder: '/static/videos',
-  public_folder: '/videos'
+  media_folder: '/static/assets/videos',
+  public_folder: '/assets/videos'
 };

@@ -1,5 +1,6 @@
 import { autoplay } from './autoplay.js';
 import { controls } from './controls.js';
+import { loop } from './loop.js';
 import { legend } from './legend.js';
 import { mp4 } from './video-mp4.js';
 import { screenshot } from './screenshot.js';
@@ -17,10 +18,11 @@ export const video = {
   fields: [
     mp4,
     webm,
-    controls, 
-    autoplay, 
-    screenshot, 
-    legend, 
+    controls,
+    autoplay,
+    loop,
+    screenshot,
+    legend,
     transcription
   ]
 };
