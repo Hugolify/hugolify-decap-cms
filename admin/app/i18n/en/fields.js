@@ -176,7 +176,7 @@ export const fields = {
   image_compression: 'Capture d’écran ?',
   image_src: {
     label: 'Image',
-    hint: 'Resize and compress image before sending: https://bulkresizephotos.com/fr?quality=0.90&type=width&value=1600'
+    hint: 'Resize and compress image before sending: https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
   },
   images: 'Image list',
   informations: {
