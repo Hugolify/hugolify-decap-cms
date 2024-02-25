@@ -1,12 +1,12 @@
-import { isNotIndex } from '../fields/is-not-index.js';
-import { draft } from '../fields/draft.js';
-import { title } from '../fields/title-required.js';
-import { description } from '../fields/description.js';
-import { featured_image } from '../fields/featured-image.js';
-import { address } from '../fields/address.js';
-import { contact } from '../fields/contact.js';
-import { body } from '../fields/body.js';
 import { blocks } from '../blocks/blocks.js';
+import { address } from '../fields/address.js';
+import { body } from '../fields/body.js';
+import { contact } from '../fields/contact.js';
+import { draft } from '../fields/draft.js';
+import { featured_image } from '../fields/featured-image.js';
+import { isNotIndex } from '../fields/is-not-index.js';
+import { description } from '../fields/page-description.js';
+import { title } from '../fields/page-title.js';
 import { t } from '../i18n/translater.js';
 
 const places = {

@@ -1,8 +1,8 @@
-import { isIndex } from '../fields/is-index.js';
-import { title } from '../fields/title-required.js';
-import { description } from '../fields/description.js';
-import { hero } from '../fields/hero.js';
 import { blocks } from '../blocks/blocks.js';
+import { hero } from '../fields/hero.js';
+import { isIndex } from '../fields/is-index.js';
+import { description } from '../fields/page-description.js';
+import { title } from '../fields/page-title.js';
 import { t } from '../i18n/translater.js';
 
 const indexes = {

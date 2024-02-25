@@ -1,7 +1,7 @@
 import { isNotIndex } from '../fields/is-not-index.js';
 import { draft } from '../fields/draft.js';
-import { title } from '../fields/title-required.js';
-import { description } from '../fields/description.js';
+import { title } from '../fields/page-title.js';
+import { description } from '../fields/page-description.js';
 import { featured_image } from '../fields/featured-image.js';
 import { contact } from '../fields/contact.js';
 import { body } from '../fields/body.js';

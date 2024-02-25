@@ -1,13 +1,13 @@
-import { isNotIndex } from '../fields/is-not-index.js';
-import { draft } from '../fields/draft.js';
+import { body } from '../fields/body.js';
 import { date } from '../fields/date.js';
-import { title } from '../fields/title-required.js';
-import { description } from '../fields/description.js';
-import { press } from '../fields/press.js';
-import { publications_persons } from '../fields/publications_persons.js';
+import { draft } from '../fields/draft.js';
 import { featured_image } from '../fields/featured-image.js';
 import { images } from '../fields/images.js';
-import { body } from '../fields/body.js';
+import { isNotIndex } from '../fields/is-not-index.js';
+import { description } from '../fields/page-description.js';
+import { title } from '../fields/page-title.js';
+import { press } from '../fields/press.js';
+import { publications_persons } from '../fields/publications_persons.js';
 import { t } from '../i18n/translater.js';
 
 const publications = {
