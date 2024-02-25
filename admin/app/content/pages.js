@@ -1,11 +1,11 @@
-import { isPage } from '../fields/is-page.js';
-import { draft } from '../fields/draft.js';
-import { title } from '../fields/title-required.js';
-import { hero } from '../fields/hero.js';
-import { featured_image } from '../fields/featured-image.js';
-import { description } from '../fields/description.js';
-import { body } from '../fields/body.js';
 import { blocks } from '../blocks/blocks.js';
+import { body } from '../fields/body.js';
+import { draft } from '../fields/draft.js';
+import { featured_image } from '../fields/featured-image.js';
+import { hero } from '../fields/hero.js';
+import { isPage } from '../fields/is-page.js';
+import { description } from '../fields/page-description.js';
+import { title } from '../fields/page-title.js';
 import { t } from '../i18n/translater.js';
 
 const pages = {

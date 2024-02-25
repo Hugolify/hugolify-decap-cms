@@ -1,20 +1,19 @@
-import { isNotIndex } from '../fields/is-not-index.js';
-import { draft } from '../fields/draft.js';
-import { date } from '../fields/date.js';
-import { reference } from '../fields/reference.js';
-import { title } from '../fields/title-required.js';
-import { description } from '../fields/description.js';
-import { realestates_persons } from '../fields/realestates_persons.js';
-import { realestates_categories } from '../fields/realestates_categories.js';
-import { offer } from '../fields/offer.js';
-import { informations } from '../fields/realestates-informations.js';
 import { address } from '../fields/address.js';
-import { keyfeatures } from '../fields/keyfeatures.js';
+import { body } from '../fields/body.js';
+import { date } from '../fields/date.js';
 import { diagnostic } from '../fields/diagnostic.js';
-import { documents } from '../fields/documents.js';
+import { draft } from '../fields/draft.js';
 import { featured_image } from '../fields/featured-image.js';
 import { gallery } from '../fields/gallery.js';
-import { body } from '../fields/body.js';
+import { isNotIndex } from '../fields/is-not-index.js';
+import { keyfeatures } from '../fields/keyfeatures.js';
+import { offer } from '../fields/offer.js';
+import { description } from '../fields/page-description.js';
+import { title } from '../fields/page-title.js';
+import { informations } from '../fields/realestates-informations.js';
+import { realestates_categories } from '../fields/realestates_categories.js';
+import { realestates_persons } from '../fields/realestates_persons.js';
+import { reference } from '../fields/reference.js';
 import { t } from '../i18n/translater.js';
 
 const realestates = {

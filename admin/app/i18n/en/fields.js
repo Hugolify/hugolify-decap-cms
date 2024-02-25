@@ -138,7 +138,10 @@ export const fields = {
   email: 'Email',
   embed: 'Embed',
   expertises_items: 'Expertises',
-  featured_image: 'Featured image',
+  featured_image: {
+    label: 'Featured image',
+    hint: 'Displayed in search results, and in SMS/Messages/Social networks preview'
+  },
   figure: 'Image with legend',
   files: 'Files',
   gallery: 'Image gallery',
@@ -154,7 +157,7 @@ export const fields = {
   half: 'Half size?',
   heading: 'Heading',
   hero: {
-    label: 'Hero',
+    label: 'Top page section',
     fields: {
       image: {
         label: 'Image',
@@ -258,6 +261,14 @@ export const fields = {
     }
   },
   pages: 'Pages',
+  page_description: {
+    label: 'Description',
+    hint: 'Displayed in search results, and in SMS/Messages/Social networks preview'
+  },
+  page_title: {
+    label: 'Title of the page',
+    hint: 'Displayed in tabs, search results, and in SMS/Messages/Social networks preview'
+  },
   pdf: {
     label: 'PDF',
     hint: 'Compress PDF before sending: https://www.adobe.com/fr/acrobat/online/compress-pdf.html'

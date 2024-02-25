@@ -138,7 +138,10 @@ export const fields = {
   email: 'Email',
   embed: 'Embed',
   expertises_items: 'Expertises',
-  featured_image: 'Image mise en avant',
+  featured_image: {
+    label: 'Image mise en avant',
+    hint: 'Affichée dans les résultats de recherche et dans la prévisualition SMS/Messages/Réseaux sociaux'
+  },
   figure: 'Image avec légende',
   gallery: 'Galerie d’images',
   grid: {
@@ -153,7 +156,7 @@ export const fields = {
   half: 'Demi-taille ?',
   heading: 'En-tête',
   hero: {
-    label: 'Hero',
+    label: 'Section de haut de page',
     fields: {
       image: {
         label: 'Image',
@@ -255,6 +258,14 @@ export const fields = {
       end: 'à droite',
       center: 'au centre'
     }
+  },
+  page_description: {
+    label: 'Description',
+    hint: 'Affichée dans les résultats de recherche et dans la prévisualisation SMS/Messages/Réseaux sociaux'
+  },
+  page_title: {
+    label: 'Titre de la page',
+    hint: 'Affiché dans les onglets, dans les résultats de recherche et dans la prévisualition SMS/Messages/Réseaux sociaux'
   },
   pages: 'Pages',
   pdf: {
