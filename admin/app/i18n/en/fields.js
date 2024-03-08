@@ -297,6 +297,7 @@ export const fields = {
   projects_tags: 'Tags',
   projects_types: 'Types',
   publications: 'Publications',
+  publications_categories: 'Category',
   publications_persons: {
     label: 'Persons concerned?',
     hint: 'Several persons possible'
