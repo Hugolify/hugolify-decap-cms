@@ -18,6 +18,6 @@ export const pdf = {
     }
   },
   hint: t.fields.pdf.hint,
-  media_folder: '/static/pdf',
+  media_folder: 'static/pdf',
   public_folder: '/pdf'
 };
