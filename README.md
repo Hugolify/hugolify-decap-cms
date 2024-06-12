@@ -9,7 +9,7 @@
 - [Linked repository](#linked-repository)
 - [Live demo](#live-demo)
 - [Install](#install)
-- [Documentations](#documentations)
+- [Documentation](#documentation)
 - [License](#license)
 
 ## Settings
@@ -86,9 +86,9 @@ Add this repository as a subdomain in your hugo project:
 git submodule add git@github.com:hugolify/hugolify-decap-cms static
 ```
 
-## Documentations
+## Documentation
 
-https://github.com/hugolify/hugolify-template/wiki
+https://www.hugolify.io/docs/
 
 ## License
 
