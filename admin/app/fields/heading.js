@@ -10,5 +10,6 @@ export const heading = {
   required: false,
   i18n: true,
   collapsed: true,
+  summary: '{{title}}',
   fields: [surtitle, title, text_markdown]
 };

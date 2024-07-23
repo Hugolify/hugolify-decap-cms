@@ -22,6 +22,10 @@ export const fields = {
       end: 'to the right'
     }
   },
+  arguments: {
+    label: 'Arguments',
+    label_singular: 'Arguments'
+  },
   author: 'Author',
   authors: {
     label: 'Authors?',
@@ -30,6 +34,10 @@ export const fields = {
   autoplay: 'Autoplay?',
   background: 'Add background color?',
   background_color: 'Background color',
+  badge: {
+    label: 'Badge',
+    hint: 'Display a text badge'
+  },
   blank: 'Open in new page?',
   body: 'Body',
   carousel: {
@@ -210,6 +218,7 @@ export const fields = {
   is_index: 'Is index?',
   is_not_index: 'Is not index?',
   is_page: 'Is page?',
+  is_primary: 'Is primary?',
   keyfeatures: {
     label: 'Key features',
     hint: 'e.g.: Location, light…'

@@ -15,6 +15,7 @@ export { block_latest } from '../blocks/latest.js';
 export { block_map } from '../blocks/map.js';
 export { block_newsletter } from '../blocks/newsletter.js';
 export { block_paragraph } from '../blocks/paragraph.js';
+export { block_prices } from '../blocks/prices.js';
 export { block_pushes } from '../blocks/pushes.js';
 export { block_quote } from '../blocks/quote.js';
 // export { block_selectedcasestudies } from "../blocks/selected-casestudies.js"

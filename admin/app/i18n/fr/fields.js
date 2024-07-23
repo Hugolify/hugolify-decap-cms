@@ -22,6 +22,10 @@ export const fields = {
       center: 'au centre'
     }
   },
+  arguments: {
+    label: 'Arguments',
+    label_singular: 'Arguments'
+  },
   author: 'Auteur',
   authors: {
     label: 'Auteurs ?',
@@ -30,6 +34,10 @@ export const fields = {
   autoplay: 'Lecture automatique ?',
   background: 'Ajouter une couleur d’arrière plan ?',
   background_color: 'Couleur du fond',
+  badge: {
+    label: 'Badge',
+    hint: 'Afficher un badge text'
+  },
   blank: 'Ouvrir le lien dans une nouvelle fenêtre ?',
   body: 'Contenu',
   carousel: {
@@ -209,6 +217,7 @@ export const fields = {
   is_index: 'Est un index ?',
   is_not_index: "N'est pas un index ?",
   is_page: 'Est une page ?',
+  is_primary: 'Principal?',
   keyfeatures: {
     label: 'Caractéristiques principales',
     hint: 'ex: Emplacement, lumière…'

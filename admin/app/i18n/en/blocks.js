@@ -111,6 +111,15 @@ export const blocks = {
     }
   },
   paragraph: 'Paragraph',
+  prices: {
+    label: 'Prices comparator',
+    fields: {
+      items: {
+        label: 'Columns',
+        label_singular: 'Column'
+      }
+    }
+  },
   pushes: {
     label: 'Push blocs (column)',
     fields: {
