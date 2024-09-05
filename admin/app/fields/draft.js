@@ -6,5 +6,5 @@ export const draft = {
   widget: 'boolean',
   default: true,
   required: false,
-  i18n: 'duplicate'
+  i18n: true
 };
