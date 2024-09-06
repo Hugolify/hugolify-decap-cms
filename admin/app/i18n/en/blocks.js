@@ -111,8 +111,8 @@ export const blocks = {
     }
   },
   paragraph: 'Paragraph',
-  prices: {
-    label: 'Prices comparator',
+  comparison: {
+    label: 'Comparison block',
     fields: {
       items: {
         label: 'Columns',

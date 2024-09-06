@@ -10,9 +10,9 @@ import { column } from '../fields/column.js';
 import { background } from '../fields/background.js';
 import { t } from '../i18n/translater.js';
 
-export const block_prices = {
-  name: 'prices',
-  label: t.blocks.prices.label,
+export const block_comparison = {
+  name: 'comparison',
+  label: t.blocks.comparison.label,
   widget: 'object',
   required: false,
   i18n: true,
@@ -23,8 +23,8 @@ export const block_prices = {
     column,
     {
       name: 'items',
-      label: t.blocks.prices.fields.items.label,
-      label_singular: t.blocks.prices.fields.items.label_singular,
+      label: t.blocks.comparison.fields.items.label,
+      label_singular: t.blocks.comparison.fields.items.label_singular,
       widget: 'list',
       required: false,
       i18n: true,
