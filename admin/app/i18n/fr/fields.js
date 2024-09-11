@@ -214,10 +214,10 @@ export const fields = {
     label: 'Instagram',
     hint: 'URL (https://…)'
   },
+  is_highlighted: 'Mis en avant ?',
   is_index: 'Est un index ?',
   is_not_index: "N'est pas un index ?",
   is_page: 'Est une page ?',
-  is_primary: 'Principal?',
   keyfeatures: {
     label: 'Caractéristiques principales',
     hint: 'ex: Emplacement, lumière…'
