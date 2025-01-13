@@ -1,4 +1,5 @@
 export const shortcodes = {
+  blank_link: 'Lien blank (nouvel onglet)',
   button: 'Bouton',
   collapsible_note: {
     label: 'Note accordéon',
