@@ -125,8 +125,8 @@ export const fields = {
   diagnostic: {
     label: 'Diagnostic',
     fields: {
-      dpe: 'DPE: kWh/m2.year',
-      ges: 'GES: CO2/m2.year'
+      epd: 'EDP: kWh/m2.year',
+      ghg: 'GHG: CO2/m2.year'
     }
   },
   direction: {
@@ -222,6 +222,10 @@ export const fields = {
   keyfeatures: {
     label: 'Key features',
     hint: 'e.g.: Location, light…'
+  },
+  language: {
+    label: 'Language',
+    hint: 'e.g.: en'
   },
   layout: {
     label: 'Layout',

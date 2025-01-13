@@ -9,8 +9,8 @@ export const diagnostic = {
   collapsed: true,
   fields: [
     {
-      name: 'dpe',
-      label: t.fields.diagnostic.fields.dpe,
+      name: 'kwh',
+      label: t.fields.diagnostic.fields.epd,
       widget: 'number',
       required: false,
       i18n: 'duplicate',
@@ -18,8 +18,8 @@ export const diagnostic = {
       min: 0
     },
     {
-      name: 'ges',
-      label: t.fields.diagnostic.fields.ges,
+      name: 'co2',
+      label: t.fields.diagnostic.fields.ghg,
       widget: 'number',
       required: false,
       i18n: 'duplicate',
