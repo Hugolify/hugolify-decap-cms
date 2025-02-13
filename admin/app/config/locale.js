@@ -1,2 +1,2 @@
-export const locale = 'fr';
+export const locale = 'en';
 export default locale;
