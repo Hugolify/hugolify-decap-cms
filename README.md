@@ -1,5 +1,8 @@
 # Hugo Decap CMS
 
+**Deprecated**\
+Please use https://github.com/Hugolify/hugolify-admin
+
 ## Table of contents
 
 - [Settings](#settings)
@@ -88,7 +91,7 @@ git submodule add git@github.com:hugolify/hugolify-decap-cms static
 
 ## Documentation
 
-https://www.hugolify.io/docs/
+https://www.hugolify.io/docs/cms/decap-cms/
 
 ## License
 
